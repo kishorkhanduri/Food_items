@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Example</title>
+  <style>
+    body {
+      margin: 0;
+      scroll-behavior: smooth;
+      background-color: #b3c0c1;
+    }
+
+    header {
+      background-color: #b3c0c1;
+      
+
+    }
+
+    nav {
+      background-color: #3c6367;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: 2px solid transparent;
+      border-radius: 5px;
+      transition: border-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 24px;
+      padding: 10px;
+    }
+
+
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    .food-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .food-item img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .food-item p {
+      font-size: 20px;
+      font-weight: bold;
+      color: #343a40;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="#">Index</a>
+      <a href="#">Food</a>
+      <a href="#">About</a>
+    </nav>
+    <h1>Top 5 favourite foods</h1>
+    <ul>
+      <li>Biryani</li>
+      <li>Cake</li>
+      <li>Pizza</li>
+      <li>Choupsey</li>
+      <li>Wings</li>
+    </ul>
+  </header>
+
+  <div class="food-item">
+    <img
+      src="https://media.istockphoto.com/photos/hyderabadi-biryani-a-popular-chicken-or-mutton-rice-preparation-picture-id466089615?k=6&m=466089615&s=612x612&w=0&h=5WfuPs3LPpKyRQers3H2ZmKYLb5pZoXHfXAaLRpfFV8="
+      alt="Biryani">
+    <p>Biryani</p>
+  </div>
+
+  <div class="food-item">
+    <img
+      src="https://img.freepik.com/free-photo/chocolate-dripping-cake-garnished-with-wrapped-waffle-with-berries_140725-5773.jpg?w=740&t=st=1709716159~exp=1709716759~hmac=4c9d53164d960f70361bfb07093b6a7795c71792fbc76b606f071a5994e67676"
+      alt="Cake">
+    <p>Cake</p>
+  </div>
+
+  <div class="food-item">
+    <img src="https://image.shutterstock.com/image-photo/supreme-pizza-lifted-slice-1-260nw-84904912.jpg" alt="Pizza">
+    <p>Pizza</p>
+  </div>
+
+  <div class="food-item">
+    <img
+      src="https://img.freepik.com/free-photo/noodles-prepared-with-meat-bell-peppers-sauce_141793-882.jpg?t=st=1709716328~exp=1709719928~hmac=b6a87aa4e014cf4ca4dde93d06d2ff08052b40103649d1fa3a017b1e4916967c&w=740"
+      alt="Choupsy">
+    <p>Choupsy</p>
+  </div>
+
+  <div class="food-item">
+    <img src="https://foxeslovelemons.com/wp-content/uploads/2016/10/Everything-Bagel-Chicken-Wings-2-735x490.jpg"
+      alt="Wings">
+    <p>Wings</p>
+  </div>
+</body>
+
+</html>
